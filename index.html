@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My World...!!!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My World..!!!</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#portfolio">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="p.jpg" alt="My Photo" width="150" height="200" class="profile-photo"/>
+        <p>Hello! I'm SANCIA MENEZES from COMPS-A, an ambivert who thrives between social gatherings and quiet moments of reflection. I find balance in embracing both sides of my personality, whether I'm out dancing to my favorite tunes or enjoying a peaceful evening at home.</p>
+        <p>Dancing is a passion that brings joy and energy into my life, and there's nothing quite like losing myself in the rhythm of music. I have a foundational understanding of Java, C, Python, and C++, along with recent experience in HTML and CSS...</p>
+    </section>
+
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <h3>Dancing</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>Design</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>Coding</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="portfolio">
+        <h2>Gallery</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="nature">Nature</button>
+                <button class="filter-btn" data-filter="travel">Travel</button>
+                <button class="filter-btn" data-filter="dance">Dance</button>
+            </div>
+        <div class="Gallery">
+            <div class="item">
+                <img src="d.jpg" alt="Illuminated Bridge at Night" class="gallery-image" width="800" height="200"/>
+            </div>
+            <div class="item">
+                <img src="f.jpg" alt="Floral Dress Portrait" class="gallery-image" width="800" height="200"/>
+            </div>
+            <div class="image-item">
+                <img src="mountain.jpg" alt="My Photo_3" class="gallery-image" width="800" height="200"/>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Get in touch</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        
+        <h3>My Contact Information</h3>
+        <p>Email: <a href="mailto:menezessancia2@gmail.com">menezessancia2@gmail.com</a></p>
+        <p>Phone: <a href="tel:+918010254982">8010254982</a></p>
+        <p>Location: Mumbai</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 SANCIA MENEZES. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
